@@ -11,6 +11,11 @@ btn.addEventListener("click", () => {
 function clickHandler(myDate, num) {
   if (num === "" || num === 0) {
     outputDiv.innerText = "Enter a number bigger than 0";
+    return;
+  }
+  if (myDate === "") {
+    outputDiv.innerText = "Please enter a date";
+    return;
   }
   myDate = myDate.split("-");
   let total = 0;
