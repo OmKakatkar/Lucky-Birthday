@@ -33,9 +33,9 @@ function clickHandler(myDate, num) {
 
   if (sum % num) {
     outputDiv.innerText = "Aww! Not a lucky birthday";
-    moodDiv.src = "./sad.png";
+    moodDiv.src = "./images/sad.png";
   } else {
     outputDiv.innerText = "Yay! Your Birthday is Lucky";
-    moodDiv.src = "./happy.png";
+    moodDiv.src = "./images/happy.png";
   }
 }
